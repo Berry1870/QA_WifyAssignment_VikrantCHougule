@@ -17,7 +17,7 @@ import org.testng.Assert;
  */
 public class RediffSignupScript {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args){
 		
 		//launch browser
 		WebDriver driver = new ChromeDriver();
@@ -88,7 +88,6 @@ public class RediffSignupScript {
 		//and then clicking on "Enter my account" button manually.
 		//then it re-directed to OTP verification and further actions which we cannot automate, so its done via MANUALLY
 	
-		Thread.sleep(60000);
 		driver.quit();
 	}
 }
